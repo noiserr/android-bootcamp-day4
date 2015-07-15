@@ -14,32 +14,15 @@ Introduction
 
 - [Read more about Google Cloud Messaging](https://developers.google.com/cloud-messaging/android/start)
 
-Getting Started
----------------
-
-- Follow the [quickstart guide](https://developers.google.com/cloud-messaging/)
-  to set up your project in Android Studio.
-- Run the sample on your Android device.
-- Update API_KEY in GcmSender.java, with API key from your project.
-- Run the terminal command to send GCM message to your device.
-- A notification containing the GCM message should be displayed on the
-  device.
-
 Support
 -------
 
 - Stack Overflow: http://stackoverflow.com/questions/tagged/google-cloud-messaging
 
-If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/google-services/issues
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub.
-
 License
 -------
 
-Copyright 2015 Google, Inc.
+Copyright 2015 Google, Inc., DroidsOnRoids
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
