@@ -12,7 +12,7 @@ messages.
 Introduction
 ------------
 
-- [Read more about Google Cloud Messaging](https://developers.google.com/cloud-messaging/)
+- [Read more about Google Cloud Messaging](https://developers.google.com/cloud-messaging/android/start)
 
 Getting Started
 ---------------
@@ -24,10 +24,6 @@ Getting Started
 - Run the terminal command to send GCM message to your device.
 - A notification containing the GCM message should be displayed on the
   device.
-
-Screenshots
------------
-![Screenshot](app/src/main/gcm-sample.png)
 
 Support
 -------
