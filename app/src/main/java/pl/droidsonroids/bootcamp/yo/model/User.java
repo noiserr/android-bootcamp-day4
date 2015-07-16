@@ -1,6 +1,6 @@
 package pl.droidsonroids.bootcamp.yo.model;
 
-public class User {
+public class User implements Comparable<User> {
     int id;
     String name;
 
@@ -10,5 +10,10 @@ public class User {
 
     public int getId() {
         return id;
+    }
+
+    @Override
+    public int compareTo(User another) {
+        return name.toLowerCase().compareTo(another.getName().toLowerCase());
     }
 }

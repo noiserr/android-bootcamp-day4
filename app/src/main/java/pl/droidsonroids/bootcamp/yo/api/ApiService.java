@@ -3,7 +3,9 @@ package pl.droidsonroids.bootcamp.yo.api;
 import java.util.List;
 
 import pl.droidsonroids.bootcamp.yo.model.User;
+import retrofit.ErrorHandler;
 import retrofit.RestAdapter;
+import retrofit.RetrofitError;
 import retrofit.android.AndroidLog;
 import retrofit.http.GET;
 import retrofit.http.POST;
@@ -26,6 +28,12 @@ public interface ApiService {
             .setEndpoint("https://dor-yo.herokuapp.com")
             .setLog(new AndroidLog("yo api"))
             .setLogLevel(RestAdapter.LogLevel.FULL)
+            .setErrorHandler(new ErrorHandler() {
+                @Override
+                public Throwable handleError(RetrofitError cause) {
+                    return null;
+                }
+            })
             .build()
             .create(ApiService.class);
 }
